@@ -1,0 +1,3 @@
+# cdk bootstrap aws://702742066961/eu-central-1 --profile my
+aws-cdk-lib==2.27.0
+aws-cdk.aws-lambda-python-alpha==2.27.0a0
