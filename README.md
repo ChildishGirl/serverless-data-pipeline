@@ -92,9 +92,9 @@ All resources will be deployed as a Stack to allow centralised creation, modific
 
 **Secondary process (CI/CD):**
 
-When a developer wants to change processing job logic, he should just prepare the changes and commit them to the **CodeCommit** repository. Everything else is automated and handed by CI/CD process.
+When a developer wants to change processing job logic, he should just prepare the changes and commit them to the **CodeCommit** repository. Everything else is automated and handled by CI/CD process.
 
-**CodeBuild** service converts CDK code into CloudFormation template and deploys it to your account account. In other words, it creates all infrastructure components automatically. Once completed, deployed resources’ group (stack) is available in **CloudFormation** service on web UI. To simplify these two steps and provide self-updates for CI/CD process as well, **CodePipeline** abstraction is used. You’ll also get Slack notifications about the progress.
+**CodeBuild** service converts CDK code into CloudFormation template and deploys it to your account. In other words, it creates all infrastructure components automatically. Once completed, deployed resources’ group (stack) is available in **CloudFormation** service on web UI. To simplify these two steps and provide self-updates for CI/CD process as well, **CodePipeline** abstraction is used. You’ll also get Slack notifications about the progress.
 
 ### Cost breakdown
 
